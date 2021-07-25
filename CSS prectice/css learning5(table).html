@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Table</title>
+    <style>
+        caption{
+            color: mediumblue;
+        }
+        table{
+            border: 2px black solid;
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th,td{
+            border: 2px black solid;
+            padding: 5px;
+            text-align: center;
+        }
+        tr:nth-child(even){
+            background-color: gray;
+        }
+        tr:nth-child(odd){
+            background-color: gold;
+        }
+        th{
+            background-color: green;
+            height: 30px;
+            vertical-align: middle;
+        }
+        tr:hover{
+            background-color: tomato;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Student information</caption>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>GPA</th>
+            <th>Bio</th>
+        </tr>
+        <tr>
+            <td>6354</td>
+            <td>Safin</td>
+            <td>4.89</td>
+            <td>De que arcos que piel arroyo manteles de quedo ilesa, come pisotean que bajo queman la de mueven mujer que,.</td>
+        </tr>
+        <tr>
+            <td>6355</td>
+            <td>Al-Amin</td>
+            <td>4.94</td>
+            <td>Shameless chaste companie if and soul found did, save they weary to to waste me fall talethis ungodly, partings ah.</td>
+        </tr>
+        <tr>
+            <td>6356</td>
+            <td>Sohad</td>
+            <td>4.78</td>
+            <td>Il non ripararci mortale fragilita noi l'acume suo divina. Forse e potra si d'angoscia e quale forza in delle. Nostra.</td>
+        </tr>
+        <tr>
+            <td>6357</td>
+            <td>sadaf</td>
+            <td>4.78</td>
+            <td>E to ek number er kamla...er abar kiyer bio...harami din rait khali kamlagiri koira beray..or boi dhuya ki ami pani khamu?</td>
+        </tr>
+    </table>
+</body>
+</html>
